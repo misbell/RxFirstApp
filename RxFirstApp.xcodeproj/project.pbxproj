@@ -13,6 +13,8 @@
 		CDBD8E4D2ADF16E1002553F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDBD8E4B2ADF16E1002553F9 /* Main.storyboard */; };
 		CDBD8E4F2ADF16E4002553F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDBD8E4E2ADF16E4002553F9 /* Assets.xcassets */; };
 		CDBD8E522ADF16E4002553F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDBD8E502ADF16E4002553F9 /* LaunchScreen.storyboard */; };
+		CDBD8E5A2ADF1A2A002553F9 /* PinkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBD8E592ADF1A2A002553F9 /* PinkViewController.swift */; };
+		CDBD8E5C2ADF1A3D002553F9 /* GreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBD8E5B2ADF1A3D002553F9 /* GreenViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		CDBD8E4E2ADF16E4002553F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CDBD8E512ADF16E4002553F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CDBD8E532ADF16E4002553F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDBD8E592ADF1A2A002553F9 /* PinkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinkViewController.swift; sourceTree = "<group>"; };
+		CDBD8E5B2ADF1A3D002553F9 /* GreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				CDBD8E472ADF16E1002553F9 /* SceneDelegate.swift */,
 				CDBD8E492ADF16E1002553F9 /* ViewController.swift */,
 				CDBD8E4B2ADF16E1002553F9 /* Main.storyboard */,
+				CDBD8E592ADF1A2A002553F9 /* PinkViewController.swift */,
+				CDBD8E5B2ADF1A3D002553F9 /* GreenViewController.swift */,
 				CDBD8E4E2ADF16E4002553F9 /* Assets.xcassets */,
 				CDBD8E502ADF16E4002553F9 /* LaunchScreen.storyboard */,
 				CDBD8E532ADF16E4002553F9 /* Info.plist */,
@@ -138,9 +144,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDBD8E5A2ADF1A2A002553F9 /* PinkViewController.swift in Sources */,
 				CDBD8E4A2ADF16E1002553F9 /* ViewController.swift in Sources */,
 				CDBD8E462ADF16E1002553F9 /* AppDelegate.swift in Sources */,
 				CDBD8E482ADF16E1002553F9 /* SceneDelegate.swift in Sources */,
+				CDBD8E5C2ADF1A3D002553F9 /* GreenViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
